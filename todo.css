@@ -1,0 +1,92 @@
+body {
+    margin:0px;
+    background-image: url("efdbe3b251532098f071a5be2cbd93ff.jpg");
+    background-size: cover
+}
+#header{
+    background-color:darkmagenta;
+    text-align:center;
+    height: 5em;
+    color:rgba(241, 132, 132, 0.822);
+
+}
+h1 {
+    margin-top:0px;
+}
+#donediv{
+    background-color: lightgreen;
+    float: right;
+    width:25em;
+    text-align: center;
+    height: 45em;
+    margin-top: 5em;
+    margin-right: 5em;
+    font-style: italic;
+    opacity:0.7
+}
+#creatediv {
+    float:left;
+    background-color: lightskyblue;
+    width: 25em;
+    height: 45em;
+    margin-top: 5em;
+    margin-left:5em;
+    text-align:center;
+    opacity:0.7
+}
+#createform {
+    text-align:left;
+    
+}
+
+#tasklabel {
+    font-size:30px;
+    font-style: italic;
+    
+}
+#taskinput {
+    width: 25em;
+    height: 2.5em;
+    outline: none;
+    border-radius: 10px;
+    margin-left:1em;
+    
+}
+
+#descriptionlabel {
+    font-size: 30px;
+    
+}
+
+#descinput {
+    margin-left:1em;
+    
+}
+
+#tododiv {
+    position:absolute;
+    width:25em;
+    text-align: center;
+    height: 45em;
+    margin-top: 5em;
+    font-style: italic;
+    opacity:0.7;
+    left:40%;
+    background-color:white;
+    overflow:scroll
+    
+}
+
+#tasksubmit {
+    margin-left: 13em;
+    color:white;
+    width:5em;
+    height:2.5em;
+    background-color:peru;
+    margin-top: 2.5em
+
+}
+
+#tasksubmit:hover {
+    cursor:pointer;
+}
